@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(18, 18, 18);
+  color: #fff;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 9px; 
+  background: #000;        
+}
+body::-webkit-scrollbar-thumb{
+  background: #3B3C3D;
+  border-radius: 10px;
+}
+
+@media (max-width:500px){
+  body::-webkit-scrollbar {
+  width: 5px; 
+  background: #000;        
+  }
+  body::-webkit-scrollbar-thumb{
+    background: transparent;
+    border-radius: 10px;
+  }
+  body::-webkit-scrollbar-thumb:active{
+    background: #3B3C3D;
+    border-radius: 10px;
+  
+  }
+}

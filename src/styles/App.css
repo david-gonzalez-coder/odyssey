@@ -1,0 +1,46 @@
+.cardEffect{
+    transition: .25s ease;
+}
+.cardEffect:hover{
+    transition: .25s ease;
+    transform: translate(-3px, -10px);
+}
+.styledLink-0{
+    text-decoration: none;
+}
+.styledLink-1{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+.styledLink-2{
+    text-decoration: none;
+    color: rgb(72, 169, 233);
+    margin: 10px;
+   
+}
+.stylePrimary{
+    color: #FFF;
+    background: #1a1a1a;
+    line-height: 1.2;
+}
+li{
+    list-style: none;
+}
+.input{
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    margin: 10px 0;
+}
+.input::placeholder{
+    color: #ccc;
+}
+input:hover{
+    background: rgb(43, 43, 43);
+}
+input:focus{
+    background: rgb(43, 43, 43);
+}
